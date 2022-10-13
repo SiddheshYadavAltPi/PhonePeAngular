@@ -1,0 +1,57 @@
+@import "/src/styles.scss";
+nav{
+    position:sticky;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: $primary-color;
+    font-family: $Roboto;
+    margin-bottom: 10px;
+    div{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        div{
+            font-family: $Roboto;
+            color: white;
+        }
+    }
+    .logoName{
+        color: white;
+        font-size: 1.5em;
+        margin-right: 2.6em;
+        font-weight: 900;
+        font-family: $Ubuntu;
+    }
+    :last-child{
+        gap :20px;
+    }
+}
+.userProfile{
+    color: $primary-color;
+    border-radius: 25%;
+    padding: 5px 7px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 600px){
+    .logoName{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 300px){
+    nav{
+        padding: 7px;
+        div{
+            gap:5px;
+        }
+        :last-child{
+            gap:10px;
+        }
+    }
+}

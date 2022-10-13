@@ -1,0 +1,208 @@
+<swiper [slidesPerView]="1" [spaceBetween]="30" [autoplay]="{delay: 2500, disableOnInteraction: false}" [loop]="true"
+    [pagination]="{clickable: true}" [navigation]="false" class="mySwiper">
+    <ng-template swiperSlide>
+        <img src="https://www.phonepe.com/webstatic/static/6341d1762ac4ed98d04996c9b03b5eb5/5707d/hp-banner4wt.png"
+            alt="" srcset="">
+    </ng-template>
+    <ng-template swiperSlide>
+        <img src="https://www.phonepe.com/webstatic/static/a90935c34b42d0c15c4e8c975558d876/5707d/hp-banner1.png" alt=""
+            srcset="">
+    </ng-template>
+    <ng-template swiperSlide>
+        <img src="https://www.phonepe.com/webstatic/static/86b8d43049f74fc5eeaa67dba014e12b/5707d/hp-banner3.png"
+            alt="">
+    </ng-template>
+</swiper>
+<div class="row">
+    <!-- Transfer Money  -->
+    <section class="col s12">
+        <div class="inner row">
+            <header class="col s12"><strong>Transfer Money</strong></header>
+            <div class="col s3">
+                <div class="pointer">
+                    <div routerLink="/sendMoney" class="primeBack">
+                        <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['far','user']"></fa-icon>
+                    </div>
+                </div>
+                <div>To Mobile<br>Number</div>
+            </div>
+            <div class="col s3">
+                <div class="pointer">
+                    <div class="primeBack">
+                        <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['fas','building-columns']"></fa-icon>
+                    </div>
+                </div>
+                <div>To Bank/<br>UPI ID</div>
+            </div>
+            <div class="col s3">
+                <div class="pointer">
+                    <div class="primeBack">
+                        <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['fas','rotate-left']"></fa-icon>
+                    </div>
+                </div>
+                <div>To Self<br>Account</div>
+            </div>
+            <div class="col s3">
+                <div class="pointer waves-effect waves-purple">
+                    <div class="primeBack">
+                        <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['fas','landmark']"></fa-icon>
+                    </div>
+                </div>
+                <div>Check<br>Bank Balance</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wallet Rewards Refer Section  -->
+    <section class="col s12 row" style="margin: 5px 0 !important;max-width: 99vw;">
+        <div class="col s4">
+            <div class="pointer waves-effect waves-light ">
+                <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['fas','wallet']"></fa-icon>
+                <div>PhonePe Wallet</div>
+            </div>
+        </div>
+        <div class="col s4">
+            <div class="pointer waves-effect waves-light">
+                <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['fas','gift']"></fa-icon>
+                <div>Rewards</div>
+            </div>
+        </div>
+        <div class="col s4">
+            <div class="pointer waves-effect waves-light">
+                <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['fas','bullhorn']"></fa-icon>
+                <div>Refer and Earn</div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Recharge and Pay Bills -->
+    <section class="col s12 m6">
+        <div class="inner row">
+            <header class="col s12"><strong>Recharge and Pay Bills</strong></header>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime" [styles]="{'height':'1.5em'}" [icon]="['fas','mobile-screen-button']"></fa-icon>
+                <div>Mobile<br>Recharge</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime" [styles]="{'height':'1.5em'}" [icon]="['fas','satellite-dish']"></fa-icon>
+                <div>DTH</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime" [styles]="{'height':'1.5em'}" [icon]="['far','lightbulb']"></fa-icon>
+                <div>Electricity</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime" [styles]="{'height':'1.5em'}" [icon]="['far','credit-card']"></fa-icon>
+                <div>Credit Card<br>Payment</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime"[styles]="{'height':'1.5em'}" [icon]="['fas','house-circle-check']"></fa-icon>
+                <div>Rent<br>Payment </div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime" [styles]="{'height':'1.5em'}" [icon]="['fas','sack-dollar']"></fa-icon>
+                <div>Loan<br>Paymentdiv></div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime" [styles]="{'height':'1.5em'}" [icon]="['fas','graduation-cap']"></fa-icon>
+                <div>Education<br>Fees</div>
+            </div>
+            <div class="col s3">
+                <div class="primeBack">
+                    <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['fas','angle-right']"></fa-icon>
+                </div>
+                <div>See All</div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Insurance -->
+    <section class="col s12 m6">
+        <div class="inner row">
+            <header class="col s12"><strong>Insuarance</strong></header>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime" [styles]="{'height':'1.5em'}" [icon]="['fas','motorcycle']"></fa-icon>
+                <div>Bike</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime" [styles]="{'height':'1.5em'}" [icon]="['fas','car-side']"></fa-icon>
+                <div>Car</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime" [styles]="{'height':'1.5em'}" [icon]="['fas','heart-pulse']"></fa-icon>
+                <div>Health</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime" [styles]="{'height':'1.5em'}" [icon]="['fas','person-falling-burst']"></fa-icon>
+                <div>Personal<br>Accident</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime"[styles]="{'height':'1.5em'}" [icon]="['fas','hands-holding-child']"></fa-icon>
+                <div>Term<br>Life</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime" [styles]="{'height':'1.5em'}" [icon]="['fas','sack-dollar']"></fa-icon>
+                <div>Loan<br>Paymentdiv></div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer prime" [styles]="{'height':'1.5em'}" [icon]="['fas','graduation-cap']"></fa-icon>
+                <div>Education<br>Fees</div>
+            </div>
+            <div class="col s3">
+                <div class="primeBack">
+                    <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['fas','angle-right']"></fa-icon>
+                </div>
+                <div>See All</div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <section class="col s12 m6">
+        <div class="inner row">
+            <header class="col s12"><strong>Transfer Money</strong></header>
+            <div class="col s3">
+                <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['far','user']"></fa-icon>
+                <div>To Mobile<br>Number</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['far','user']"></fa-icon>
+                <div>To Mobile<br>Number</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['far','user']"></fa-icon>
+                <div>To Mobile<br>Number</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['far','user']"></fa-icon>
+                <div>To Mobile<br>Number</div>
+            </div>
+        </div>
+    </section>
+    <section style="margin-bottom: 4.2rem;" class="col s12 m6">
+        <div class="inner row">
+            <header class="col s12"><strong>Transfer Money</strong></header>
+            <div class="col s3">
+                <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['far','user']"></fa-icon>
+                <div>To Mobile<br>Number</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['far','user']"></fa-icon>
+                <div>To Mobile<br>Number</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['far','user']"></fa-icon>
+                <div>To Mobile<br>Number</div>
+            </div>
+            <div class="col s3">
+                <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" [icon]="['far','user']"></fa-icon>
+                <div>To Mobile<br>Number</div>
+            </div>
+        </div>
+    </section>
+
+</div>

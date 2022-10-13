@@ -1,0 +1,46 @@
+// Colors
+$primary-color: #6739b7;
+$background-color:#ebe0ff;
+$Roboto:Roboto, sans-serif;
+$Ubuntu: 'Ubuntu', sans-serif;
+
+// Buttons
+.navBtn {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background-color: darkgrey;
+  color: rgb(83, 83, 83);
+  margin: auto;
+  max-width: 620px;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  font-family: $Roboto;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+// Fix width
+.fixedWidth {
+  max-width: 620px;
+  margin: auto;
+  font-family: $Roboto;
+  padding: 10px;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family:$Roboto;
+  
+}
+
+.pointer{
+  cursor: pointer;
+  z-index: 0;
+}

@@ -1,0 +1,95 @@
+@import "/src/styles.scss";
+@import "~swiper/css";
+@import "~swiper/css/pagination";
+@import "~swiper/css/navigation";
+.swiper {
+  width: 99%;
+  margin-bottom: 10px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: $background-color;
+
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 99%;
+  height: 100%;
+//   object-fit: cover;
+  border-radius: 15px;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.inner{
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px 0 !important;
+    padding: 10px 0;
+    header{
+      margin-bottom: 5px;
+    }
+}
+
+.col{
+    box-sizing: border-box;
+}
+
+strong{
+    font-weight: 800;
+    margin: 5px 0;
+}
+.s3{
+    text-align: center;
+    padding: 3px 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.primeBack{
+    background-color: $primary-color;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    padding-top:8px ;
+    width: 3em;
+    height: 3em;
+    border-radius: 12px;
+}
+
+.s4{
+    text-align: center;
+    padding: 0 !important;
+    div{
+        background-color: rgb(64, 64, 255) !important;
+        color: white;
+        border-radius: 15px;
+        width: 8rem;
+        height: 5rem;
+        margin: auto;
+        padding-top: 8px;
+    }
+}
+.prime{
+  color: $primary-color;
+}

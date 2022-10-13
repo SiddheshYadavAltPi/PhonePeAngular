@@ -1,0 +1,59 @@
+@import "/src/styles.scss";
+.login {
+
+  :nth-child(2) {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  :nth-child(3) {
+    font-size: 14px;
+    font-weight:400;
+    color: rgb(100, 100, 100);
+    margin-bottom: 20px;
+  }
+  label {
+    box-sizing: border-box;
+    width: 98%;
+    border: 2px solid $primary-color;
+    padding: 10px 0;
+    border-radius: 5px;
+
+    div {
+      display: inline;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    // hide arrows from input tag html
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type="number"] {
+      -moz-appearance: textfield;
+      border: none;
+      display: inline;
+      padding: 0;
+      caret-color: #6739b7;
+      font-weight: 600;
+      font-size: 18px;
+      margin: 0;
+      width: 77%;
+      line-height: 20px;
+    }
+    input:focus {
+      outline: none; /* Removes the border when the input is clicked */
+    }
+    input::placeholder{
+      text-align: center;
+      font-size: large;
+    }
+  }
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}

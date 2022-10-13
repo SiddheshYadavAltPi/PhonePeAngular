@@ -1,0 +1,14 @@
+.splashContainer{
+    display: flex;
+    justify-content: center;
+    max-height: 100vh;
+    box-sizing: border-box;
+}
+.splashLogo{
+    margin-top: 30vh;
+    img{
+       height: 200px;
+       width: 200px;
+       
+   }
+}

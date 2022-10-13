@@ -1,0 +1,10 @@
+<div class="login fixedWidth">
+    <img src="/assets/logo.png" alt="" class="logo">
+    <div>Enter your mobile Number</div>
+    <div>To use UPI, please enter the mobile number linked to your bank account</div>
+    <label for="">
+        <div>+ 91 -</div>   
+        <input placeholder="10 Digit Mobile Number" type="number" (keyup)="onKeyUp($event)">
+    </label>
+</div>
+<div class="proceedBtn navBtn" [routerLink]="isEnable?['/otp']:[]"  >PROCEED</div>

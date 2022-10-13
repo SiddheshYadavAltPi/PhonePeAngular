@@ -1,0 +1,25 @@
+<div class="sendMoney">
+    <header class="sendMoneyHead">
+        <div>
+            <fa-icon routerLink="/landingPage" class="icon pointer" icon="arrow-left"></fa-icon>
+            <div>Send Money</div>
+        </div>
+        <div>
+            <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" icon="rotate"></fa-icon>
+            <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}"  [icon]="['far','circle-question']"></fa-icon>
+        </div>
+    </header>
+    <div class="searchBar">
+        <fa-icon class="icon pointer" [styles]="{'height':'1.5em'}" icon="search"></fa-icon>
+        <div>Enter a mobile number or name</div>
+    </div>
+    <div *ngFor="let item of Users[0]; index as i" class="contacts">
+        <div>
+            <img src="{{item.avatar}}" alt="hello">
+            <div>
+                <div><b>{{item.first_name}} {{item.last_name}}</b></div>
+                <div><b>You:</b> ₹200 - Sent Securely</div>
+            </div>
+        </div>
+    </div>
+</div>
